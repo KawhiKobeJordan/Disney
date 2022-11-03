@@ -1,0 +1,14 @@
+melons = ['KoBa', 'DeWh', 'JaBa', 'JaSt', 'BeMa', 'ShMa', 'BrRe', 'KhMa', 'LaJe', 'CyTh', 'JhMo', 'KeHa', 'TaSo',
+          'KeLe', 'TaSn', 'SyEv', 'ReSh', 'BPratt', 'lANDA', 'Aniya', 'KaTh', 'SyG', 'MiPr', 'KiMa', 'SyP', 'DaWh',
+          'TeBl']
+
+ass_rank = ['KoBa', 'ReSh', 'TaSn', 'Syp', 'ShMa', 'lANDA', 'BeMa', 'SyEv', 'KeHa', 'JaSt', 'TeBl', 'DeWh', 'TaSo',
+            'JaBa', 'KeLe', 'LaJe', 'MiPr', 'Aniya', 'BrRe', 'KhMa', 'CyTh', 'SyG', 'KaTh',
+            'KiMa', 'BPratt', 'JhMo', 'DaWh']
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.pie(ass_rank, melons)
+plt.show()
+

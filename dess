@@ -1,0 +1,19 @@
+ass_rank = ['KoBa', 'ReSh', 'TaSn', 'Syp', 'ShMa', 'lANDA', 'BeMa', 'SyEv', 'KeHa', 'JaSt', 'TeBl', 'DeWh', 'TaSo',
+            'JaBa', 'KeLe', 'LaJe', 'MiPr', 'Aniya', 'BrRe', 'KhMa', 'CyTh', 'SyG', 'KaTh',
+            'KiMa', 'BPratt', 'JhMo', 'DaWh']
+
+for idx, x in enumerate(ass_rank):
+    print(f"ass rank{idx, x}")
+
+#for x in ass_rank:
+ #   if x.index[0, 10, 20]:
+#        print(f"Rank is {x.index}st")
+
+#    elif x is [3, 13, 23]:
+ #       print(f"Rank is {x}nd")
+
+  #  elif x is [4, 14, 24]:
+   #     print(f"Rank is {x}rd")
+
+#    else:
+    #    print(f"Rank is {x}th")
